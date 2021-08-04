@@ -1,11 +1,11 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh;*/
 }
 
 .main {
@@ -108,9 +108,35 @@
   line-height: 1.5;
 }
 
+h1.title span a{
+  color: #0070f3;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+h1.title span a:hover{
+  text-shadow: #0070f3 0  0px 10px;
+  text-decoration: none;
+  transform: scale(2,2);
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.superHeroCard {
+  box-shadow: #aaa 0 0 10px;
+  width: 200px;
+  height: auto;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.searchInput {
+  border-radius: 5px;
+  color: #0070f3;
+  padding: 4px;
 }
 
 @media (max-width: 600px) {

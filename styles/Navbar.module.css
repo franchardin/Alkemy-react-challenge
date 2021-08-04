@@ -1,0 +1,13 @@
+.nav{
+  background-color: #eb5858;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.nav h3 {
+  text-align: center;
+  padding: 4px;
+}
