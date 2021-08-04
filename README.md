@@ -5,7 +5,9 @@ Para correr el proyecto usar
 npm install
 npm run dev
 ```
-Rutas: localhost/
+Rutas: 
+- localhost/
+- localhost/login
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
